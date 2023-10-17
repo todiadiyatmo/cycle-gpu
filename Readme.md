@@ -1,8 +1,8 @@
 # Description
 
-Notebook with dual GPU(Graphic Processing Unit) often experience poor battery life. This is generally caused by the use of dedicated GPU to run applications when in battery mode. Using dedicated monitor can be another important factor. Notebook without MUX switch had its GPU  hardwired into dedicated GPU, forcing all aplication run in dedicated monitor using the dedicated GPU.
+Notebook with dual GPU(Graphic Processing Unit) often experience poor battery life. This is generally caused by the use of dedicated GPU to run applications when in battery mode. Using dedicated monitor can be another important factor. Notebook without MUX switch had its GPU  hardwired into external display port, forcing all aplication run in external monitor using the dedicated GPU.
 
-This script aims to improve battery life on laptops with dual graphics cards by resetting the dedicated GPU. By resetting the graphics card, all applications are forced to use the internal GPU.
+This script aims to improve battery life on laptops with dual graphics cards by resetting the dedicated GPU. By resetting (disable and re-enable) the graphics card, all applications are forced to use the internal GPU.
 
 >**[!WARNING]**
 >This script has only been tested for resetting graphics while running office applications such as browsers, messengers, and document processing. If a graphics reset is performed while using applications that require dedicated graphics, such as gaming or rendering, errors may occur.
