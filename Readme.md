@@ -4,8 +4,6 @@ Notebook with dual GPU(Graphic Processing Unit) often experience poor battery li
 
 This script aims to improve battery life on laptops with dual graphics cards by resetting the dedicated GPU. By resetting the graphics card, all applications are forced to use the internal GPU.
 
-
-
 >**[!WARNING]**
 >This script has only been tested for resetting graphics while running office applications such as browsers, messengers, and document processing. If a graphics reset is performed while using applications that require dedicated graphics, such as gaming or rendering, errors may occur.
 
@@ -37,10 +35,13 @@ Download this script and open `cylce-gpu.ps1`, edit this variable `$internalDisp
 
 Righ click on `cycle-gpu.bat` and run as administrator
 
-![image](https://i.imgur.com/WRozL9h.png)
+![image](https://i.imgur.com/dQlCvcB.png)
 
-The script will reset your GPU when no external monitor is connected and running in battery. 
-If you leave the script open it will run indefinitely
+The script will reset your GPU when no external monitor is connected and running in battery. If you leave the script open it will run indefinitely
+
+![image](https://i.imgur.com/5Dh9tqD.png)
+
+After external GPU is reset , the `GPU Activity Icon` will be grey out meaning no application run on external GPU
 
 # Disclaimer and License
 This script is provided "as is", without warranty of any kind, express or implied. Use it at your own risk.
